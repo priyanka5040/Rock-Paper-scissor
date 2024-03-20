@@ -11,6 +11,7 @@ const Page = () => {
         setInterval(() => {
             dispatch(setPlayerList(localStorage.playerList ? JSON.parse(localStorage.playerList) : []));
         }, [1000]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {
@@ -24,6 +25,7 @@ const Page = () => {
         return () => {
           window.removeEventListener('storage', handleStorageChange);
         };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       }, []);
 
   return <BrowserRouter>

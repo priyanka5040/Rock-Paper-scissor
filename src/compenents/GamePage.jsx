@@ -82,6 +82,7 @@ const GamePage = () => {
 
     const resetGame = () => {
        const newList = [];
+       // eslint-disable-next-line array-callback-return
        playerList.map((player) => {
         newList.push({ name: player?.name, gamePlaySelection: 'pending', score: 0 });
        })
