@@ -1,0 +1,119 @@
+.Container {
+  height: 100vh;
+}
+.Header {
+  display: flex;
+}
+
+.Header h1 {
+  margin: auto;
+  padding: 20px 0;
+}
+.Details {
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  gap: 30px;
+}
+/* .Details >img {
+  
+} */
+.Content {
+  padding: 40px;
+  width: 500px;
+  height: 500px;
+  background: yellow;
+}
+.User-detail {
+  padding: 40px 0;
+}
+.User-detail > input {
+  border-style: none;
+  background: beige;
+  padding: 10px;
+  width: 450px;
+  border-radius: 4px;
+}
+
+.player-name {
+  padding: 14px 10px;
+  margin: 10px 0;
+  background: aliceblue;
+  border-radius: 16px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.button-container > button {
+  padding: 14px 58px;
+  border-style: none;
+  background: #03A9F4;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+.button-container > button:disabled{
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.selection-container {
+  display: flex;
+  justify-content: space-around;
+}
+.selection-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+  gap: 100px;
+}
+.option {
+  cursor: pointer;
+}
+.option > img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.option > img:hover {
+  opacity: 0.8;
+  rotate: -30deg;
+}
+
+.user-session {
+  padding: 20px 50px;
+  border: 1px solid rgb(112, 208, 243);
+  border-radius: 4px;
+  margin: 40px;
+}
+.user-session > div {
+  font-weight: 600;
+  font-size: 20px;
+}
+.right-section {
+  border: 1.5px solid black;
+  padding: 20px;
+}
+.player {
+  padding: 10px;
+}
+.player-section {
+  height: 86%;
+}
+.results {
+  padding: 20px 50px;
+}
+.leaderboard-btn >button {
+  padding: 14px 58px;
+  border-style: none;
+  background: #03A9F4;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
